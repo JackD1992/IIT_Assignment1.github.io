@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+body {
+  margin: 0;
+  background-color: hsl(240,60%,40%);
+}
+
+h1 {
+  font-size: 60px;
+  color: white;
+  text-align: center;
+}
+
+h2 {
+  font-size: 50px;
+  color: white;
+  }
+h3 {
+  font-size: 40px;
+  color: white;
+  }
+a.one {
+color: white;
+}
+p {
+  font-family: verdana;
+  color: white;
+  font-size: 20px;
+}
+p2 {
+  font-family: verdana;
+  color: white;
+  font-size: 20px;
+  padding-bottom: 50px;
+}
+ul {
+  list-style-type: none;
+  height: 100%;
+  width: 20%;
+  background-color: hsl(60,90%,50%);
+  font-size: 30px;
+  position: fixed;
+  overflow: auto;
+  margin: 0;
+  padding: 0;
+}
+
+li a {
+  display: block;
+  color: hsl(0, 0%, 0%);
+  padding: 10px 19px;
+  text-decoration: none;
+}
+
+li a.active {
+  background-color: hsl(220,50%,20%);
+  color: white;
+}
+
+li a:hover:not(.active) {
+  background-color: hsl(220,50%,80%);
+  color: white;
+}
+
+img {
+  padding: 50px;
+  width: 300px;
+  float: right;
+}
+
+</style>
+</head>
+<body>
+
+<ul>
+	<li><a href="about_me.html">About Me</a></li>
+	<li><a href="the_dream_job.html">Ideal Job</a></li>
+    <li><a href="personality_profile.html">Personality Profile</a></li>
+	<li><a class="active" href="project_plan.html">Project Plan</a></li>
+</ul>
+
+<div style="margin-left:23%;padding:10px 16px;height:20px;">
+  <h1>Project Plan</h1>
+  <img src="As1_images/Garden_App.jpg" alt="MyGardenApp Logo">
+  <h2>My Garden App</h2>
+  <h3>Overview</h3>
+  <p>The MyGarden app is a smartphone app to virtually track and log users’ gardens and support people in their gardening efforts by providing a place to seek answers to their gardening needs. 
+  It will provide a place to set reminders and to seek advice and generally make plant care easier and more accessible for everyone. 
+  It is an app that will provide a community feel and global support when you need it, whenever you need it. 
+  It will help people care for not only their gardens, but their friends’, families’, and patients’ gardens. 
+  An app to revolutionise gardening and make the world a greener place.</p>
+  <h3>Motivation</h3>
+  <p>Many people now have house plants since the pandemic due to wanting some greenery to brighten up their space and give them much need endorphins and the mission here is to help make plants something that even the most inexperienced person can enjoy taking care of. This app will help give peace of mind to users, so they won’t have to remember to water plants all the time as this will tell you do it!</p>
+  <p>The other mission of the app is to provide help to the elderly or disabled, so that their carers can give their plants proper love. To make sure that whatever your circumstance, plants can thrive around you.</p>
+  <h3>Features & Benefits</h3>
+  <p>The MyGarden app’s main feature is to log a user’s plant collection and help look after them. The user will be able to add plants in their care by searching through a database (by common names or Latin names) to find and log them to their virtual garden. They will then be able to upload photos, give plants nicknames, select its current location (e.g., Loungeroom), and add any notes they feel are necessary for each individual plant. </p>
+  <p>Then, they will then have the option to set notifications and reminders on things like when they need to water the plant, if it needs to be rotated from one area to another, when it needs a special fertiliser treatment, etc. This app will be able to be linked to the users’ calendar of choice, be it the base one in their smartphone or something like their Gmail calendar, to create a weekly schedule for watering and maintenance. The ability to then send a schedule of plant care would also prove to be extremely useful in a situation where one was unable to care for their plants and needed to pass the information over to a friend or family member. Simply by getting them to have the app on their phone, you could push an itinerary of sorts for them to follow while you are unable to be there or unable to provide proper plant care.</p>
+  <p>Following from this will be the ability to track changes in the users’ plants, using an annotation system so you can make notes directly onto a photo of the plant. This gives the ability to log what has recently happened to the plant, such as if it has new shoots forming or if it was not doing so great. The app would also utilise a favourites or bookmarks list to make recalling specific pages easier, be it for a plant in your library or for information around plant care. You could then create a list specifically for plants that are in recovery. </p>
+  <p>Another crucial thing for any library forming app to have would be a detailed search function. This is especially true for those with a large plant collection. The search would work by calling on key aspects of the users’ plant library (such as species, location, season, health status, watering needs etc.) and then have a further filter section to separate things that do and do not need your immediate attention. An example of this is if you searched for all plants that are outdoors and then filtered it to those that haven’t been marked as watered in the past two weeks, you could then see what needs watering.</p>
+  <p>Lastly, a discussion forum would be added for users to connect around the world and offer advice to each other on how to help their plants. It could also feature a link section so people can list the best plant supply shops in their area and link people’s plant-based Instagram or Facebook pages to really build a sense of community.</p>
+  <h3>Tools and Tech.</h3>
+  <p>To create this app, the team will need access to various app creation tools. According to a list from the website Redwerk (Best Open Source Mobile App Development Software 2021) Xamarin, an open source mobile app development tool,
+  would be best used for this project as it enables cross-platform app creation and includes real time testing capabilities. It would also benefit the team to use GitHub to write and upload the code as it means this project could be developed by people all over the world, which considering the different climates, would be ideal to help gain the most accurate information base.</p>
+  <h3>Required Skills</h3>
+  <p>To build this app, you would require a team of people from many different experience backgrounds to cover all bases. Firstly, you would need people with mobile programming experience to code the application, with knowledge of both iOS and Android. 
+  You would just as importantly need people with strong gardening experience to consult for information and ensure accuracy in all facets of the app. Also, people with strong creative design and marketing skills would be ideal to ensure that the app looks clean and appealing to users,
+  and that once complete, it is marketed across platforms such as social media to build up a user base. It would also be recommended to have someone moderate a forum/Kickstarter/reddit thread and get alpha and beta testers from there to test the app before 1.0 release.</p>
+  <h3>Outcome</h3>
+  <p2>Gardening is global, and I truly believe that it could create a sense of unity and community to help bring people together. 
+  Gardening and plants are living things that can truly have a positive impact on people’s mental health and this app could provide a source for people who never thought they could garden to get up and try,
+  and for those who are experienced to provide advice to new gardeners.
+  If successfully built, the app would provide help and advice to so many people worldwide with their gardening needs, it really could help revolutionise gardening and create a greener tomorrow.</p2>

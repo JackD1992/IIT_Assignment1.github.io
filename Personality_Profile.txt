@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+body {
+  margin: 0;
+  background-color: hsl(240,60%,40%);
+}
+
+h1 {
+  font-size: 60px;
+  color: white;
+  text-align: center;
+}
+
+h2 {
+  font-size: 40px;
+  color: white;
+  }
+ h3 {
+  font-size: 30px;
+  color: white;
+  }
+p {
+  font-family: verdana;
+  color: white;
+  font-size: 20px;
+}
+p2 {
+  font-family: verdana;
+  color: white;
+  font-size: 20px;
+  padding-bottom: 50px;
+}
+ul {
+  list-style-type: none;
+  height: 100%;
+  width: 20%;
+  background-color: hsl(60,90%,50%);
+  font-size: 30px;
+  position: fixed;
+  overflow: auto;
+  margin: 0;
+  padding: 0;
+}
+
+li a {
+  display: block;
+  color: hsl(0, 0%, 0%);
+  padding: 10px 19px;
+  text-decoration: none;
+}
+
+li a.active {
+  background-color: hsl(220,50%,20%);
+  color: white;
+}
+
+li a:hover:not(.active) {
+  background-color: hsl(220,50%,80%);
+  color: white;
+}
+
+img {
+  display: block;
+   margin-right: auto;
+}
+
+</style>
+</head>
+<body>
+
+<ul>
+	<li><a href="about_me.html">About Me</a></li>
+	<li><a href="the_dream_job.html">Ideal Job</a></li>
+    <li><a class="active" href="personality_profile.html">Personality Profile</a></li>
+	<li><a href="project_plan.html">Project Plan</a></li>
+</ul>
+
+<div style="margin-left:23%;padding:10px 16px;height:20px;">
+  <h1>Personality Profile</h1>
+  <p>Here are the results from 3 different personality tests,
+  and my interpretation of them and how they may affect me going into a team situation.</p>
+  
+  <h2>1) Myers-Briggs Personality Profile:</h2>
+  <img src="As1_images/MBPP.jpg" alt="Myers-Briggs Result">
+  <h3>What do the results of these tests mean for you?</h3>
+  <p> This test result provides an eerily accurate portrayal of many of my personality traits. It explains that I have a very empathetic nature, going out of my way to help others when possible. It also showcases that I have a strong desire to lead that may sometimes come across the wrong way.
+  <h3>How do you think these results may influence your behaviour in a team and forming a team?</h3> 
+  <p>I do like to take on leadership roles as explained in the results, however if someone else wants to take that role I am more than happy to step aside and let them take charge as I like to see others succeed.
+	I just need to remember to let everyone have a voice and ensure I don’t come across condescending or judgemental in my explanations.
+	As long as I am aware of these factors, I am able to keep myself in check and ensure that I am always a team player, and cheerleader for everyone else succeeding.</p>
+
+ <h2>2) Learning Styles Profile:</h2>
+  <img src="As1_images/LSP.jpg" alt="Learning Styles Result">
+  <h3>What do the results of these tests mean for you?</h3>
+  <p> This test relates more to how of learning and accurately describes me as someone that learns through doing rather than through theory.
+  I am very hands on and always pick something up faster when able to implement a skill rather than just writing/reading about it.</p>
+  <h3>How do you think these results may influence your behaviour in a team and forming a team?</h3> 
+  <p> 	As for team interaction, when someone is explaining a concept that is new to me, if I am struggling to grasp the information, I just need to be transparent and let them know that I may need to go away, apply the knowledge to some form of a practical example, so I can then understand what they’re trying to explain.
+  Ensuring I’m in a team with people that have a similar learning style would be advantageous as you can learn in a group activity rather than always needing to step away to learn.</p>
+  
+ <h2>3) The Big 5 Personality Test:</h2>
+  <img src="As1_images/TB5.jpg" alt="The Big 5 Results">
+  <h3>What do the results of these tests mean for you?</h3>
+  <p> These test results delve quite deep into a personality profile and hit some very personal notes. Some points are rather accurate, such as that I have a very open and positive outlook at most times, or that it takes time to open up to people.
+  While other points, such as the Anxiety, Anger, and Depression results, miss the mark and paint traits that I have as being much more severe than they truly are.</p>
+  <h3>How do you think these results may influence your behaviour in a team and forming a team?</h3> 
+  <p>As I can take a little while to warm up to people, I may seem reserved at first so I must ensure I try and be open from the beginning. That said, if I see other people are uncomfortable, I always try to include everyone.
+  Due to this it doesn’t really change how I am in a team as I am adaptable to the situation. Basically, if I must be open and social from the get-go to ease others peace of mind I can.</p> 
+  
+  <p2>Note: As these tests are all made in a generic way, their results should be taken with a grain of salt. While there are accuracies in some answers not every ‘personality test’ is going to cover all of someone traits and behaviours,
+  much in the same way that someone’s Zodiac sign will show similarity to them but not always fully encompass who they are.</p2>
